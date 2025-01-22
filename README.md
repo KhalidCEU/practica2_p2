@@ -11,6 +11,10 @@ Estos son los pasos que usamos para generar el una aproximación del número PI 
 - **Contamos** los puntos que caen **dentro del círculo**.
 - Usamos la **proporción de puntos dentro del círculo respecto al total** para aproximar PI.
 
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/d7daf124-b33e-460c-b1d1-29bb39ec308a" style="width: 50%">
+</div>
+
 La formula usada para la generación del numero PI es la siguiente:
 
 > **PI ≈ 4 * (puntos dentro del círculo) / (total puntos generados)**
