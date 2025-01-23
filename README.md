@@ -38,9 +38,15 @@ Lance el programa :
 ### Output
 
 ```
-// Input : 1000000000
+// Input : 1000000000 (mil millones de iteraciones)
 
-El número PI es 3.141555912
+El número PI es 3.141641064
 ```
 
 > Nota: Con numeros grandes, la ejecución puede tardar un poco mas en finalizar, ya que el numero de iteraciones es mayor.
+
+### Tiempo de ejecución
+
+Para medir el **tiempo de ejecución**, se puede usar el comando ``time`` de esta manera : `time ./a.out <numeroDePasos>`. Por ejemplo, para el resultado anterior, en un Macbook M1 Pro tomó un total de **31,31s** (varía según el hardware entre otros factores).
+
+![image](https://github.com/user-attachments/assets/e3d022db-5871-4d6d-b55e-4eee2413d0fe)
