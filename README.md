@@ -50,3 +50,11 @@ El número PI es 3.141641064
 Para medir el **tiempo de ejecución**, se puede usar el comando ``time`` de esta manera : `time ./a.out <numeroDePasos>`. Por ejemplo, para el resultado anterior, en un Macbook M1 Pro tomó un total de **31,31s** (varía según el hardware entre otros factores).
 
 ![image](https://github.com/user-attachments/assets/e3d022db-5871-4d6d-b55e-4eee2413d0fe)
+
+### Diagrama UML
+
+<br>
+
+<p align="center">
+  <img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/KhalidCEU/practica1_p2/refs/heads/main/docs/diagram.puml" alt="Class Diagram" width=30%>
+</p>
