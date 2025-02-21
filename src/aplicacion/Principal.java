@@ -15,7 +15,7 @@ public class Principal {
             long numeroPasos = Long.valueOf(args[0]);
 
             System.out.println("El número PI es " +
-                Matematicas.generarNumeroPiIterativo(numeroPasos));
+                Matematicas.generarNumeroPiRecursivo(numeroPasos, numeroPasos, 0));
         } catch (Exception e) {
             System.out.println("Ha ocurrido un error: " + e.toString());
         }

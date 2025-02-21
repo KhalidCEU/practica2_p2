@@ -1,4 +1,6 @@
-## Practica 1 - Programación 2
+## Practica 2 - Programación 2
+
+> Esta actividad es un fork de la [practica 1](https://github.com/KhalidCEU/practica1_p2), pero cambiando el método de calculo del número PI **iterativo** por **recursivo**.
 
 ### Explicación / Teoría
 
@@ -56,5 +58,5 @@ Para medir el **tiempo de ejecución**, se puede usar el comando ``time`` de est
 <br>
 
 <p align="center">
-  <img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/KhalidCEU/practica1_p2/refs/heads/main/docs/diagram.puml" alt="Class Diagram" width=30%>
+  <img src="http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/KhalidCEU/practica2_p2/refs/heads/main/docs/diagram.puml" alt="Class Diagram" width=30%>
 </p>

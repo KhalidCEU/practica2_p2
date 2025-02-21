@@ -4,26 +4,28 @@ public class Matematicas {
     /**
      * Genera una aproximacion del número PI usando el metodo Monte-Carlo
      *
-     * @param pasos el numero de puntos que generamos. Define el numero de
-     *  iteraciones que se realizaran.
+     * @param pasosIniciales el numero de puntos total que tenemos que generar. Define el numero de
+     *  llamadas recursivas que se realizaran.
+     *
+     * @param pasosRestantes el numero de puntos que nos quedan por generar.
+     *
+     * @param puntosDentro el numero de puntos que generamos que caen dentro del area del
+     * circulo. Se necesita como parametro, para que le parametro recursivo lleve la cuenta.
      *
      * @return La aproximacion del numero PI obtenida
      */
-    public static double generarNumeroPiIterativo(long pasos) {
-        double x = 0;
-        double y = 0;
-        long puntosDentro = 0;
-        double numeroPi = 0;
-
-        for (int i = 0; i < pasos; i++) {
-            x = Math.random();
-            y = Math.random();
-            if (x * x + y * y <= 1) {
-                puntosDentro++;
-            }
+    public static double generarNumeroPiRecursivo(long pasosIniciales, long pasosRestantes, long puntosDentro) {
+        if (pasosRestantes == 0) {
+            return 4.0 * puntosDentro / pasosIniciales;
         }
-        numeroPi = 4.0 * puntosDentro / pasos;
 
-        return numeroPi;
+        double x = Math.random();
+        double y = Math.random();
+
+        if (x * x + y * y <= 1) {
+            puntosDentro++;
+        }
+
+        return generarNumeroPiRecursivo(pasosIniciales, pasosRestantes - 1 , puntosDentro);
     }
 }

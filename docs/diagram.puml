@@ -5,7 +5,7 @@ class Principal {
 }
 
 class Matematicas {
-    +generarNumeroPiIterativo(long pasos): double
+    +generarNumeroPiRecursivo(long pasosIniciales, long pasosRestantes, long puntosDentro): double
 }
 
 Principal ..> Matematicas : uses
